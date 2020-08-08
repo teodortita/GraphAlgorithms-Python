@@ -1,7 +1,9 @@
 from heapq import heapify, heappush, heappop
 
 class priority_dict(dict):
-    """Dictionary that can be used as a priority queue.
+    """IMPORTED CLASS
+    
+    Dictionary that can be used as a priority queue.
 
     Keys of the dictionary are items to be put into the queue, and values
     are their respective priorities. All dictionary methods work as expected.
